@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: agente-online
+
+  datasource:
+    url: jdbc:postgresql://localhost:3000/agentedb
+    username: agente
+    password: agenteocara
+    driverClassName: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
