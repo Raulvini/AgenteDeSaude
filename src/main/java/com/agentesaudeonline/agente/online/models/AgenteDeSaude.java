@@ -24,4 +24,6 @@ public class AgenteDeSaude {
 
 //    private Localidade localidade;
 
+    private String email;
+
 }
